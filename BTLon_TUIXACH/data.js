@@ -1,9 +1,9 @@
 
 // Khai báo dữ liệu 
 
-let sp1 = { masp: 1, hang: "INNISFREE", hinhanh: 'image/bosp-innisfree.jpg', tensp: "Bộ Dưỡng Da Innisfree Trà Xanh Green Tea Balancing Ex(4 Sản Phẩm)", soluong: 1, dongia: "1.709.000VNĐ", mota: 'Bộ Dưỡng Da Innisfree Trà Xanh Green Tea dành cho da hỗn hợp và da thường, gồm 4 sản phẩm: Tinh chất serum, Nước hoa hồng skin, Sữa dưỡng lotion, Kem dưỡng. Có nhiều chông dụng như: Cung cấp độ ẩm cho da, Chống oxi hóa, Bảo vệ da chống các tác hại từ môi trường xung quanh,…' }
-let sp2 = { masp: 2, hang: "INNISFREE", hinhanh: 'image/kcn-innisfree.jpg', tensp: "Kem chống nắng Innisfree Tone Up No Sebum Sunscreen SPF50 50ml", soluong: 1, dongia: "369.000VNĐ", mota: 'Kem chống nắng Innisfree Tone Up No Sebum Sunscreen SPF50 50ml là kem chống nắng nâng tông vật lý của Innisfree. Kem chống nắng với finish ráo mịn đẹp mê hồn cho những cô nàng da dầu, nhạy cảm. Kem chống nắng thích hợp để che đi khuyết điểm nhỏ trên gương mặt và giúp làn da tươi tắn, tràn đầy sức sống hơn.' }
-let sp3 = { masp: 3, hang: "INNISFREE", hinhanh: 'image/serum-innisfree.jpg', tensp: "Bộ đôi tinh chất dưỡng sáng và dưỡng ẩm innisfree Brightening Pore Serum & Green Tea Seed Serum", soluong: 1, dongia: "1.229.000VNĐ", mota: 'Tinh chất chứa chiết xuất từ vỏ quýt Hallabong chăm sóc các nhược điểm trên da và giúp da thêm căng mịn và sáng ngời! Dẫn xuất vitamin B3 cung cấp chăm sóc sắc tố melanin chuyên sâu. Dẫn xuất vitamin C và dẫn xuất vitamin B5 chăm sóc cho làn da khỏe mạnh. Axit hyaluronic cung cấp độ ẩm.' }
+let sp1 = { masp: 1, hang: "GUCCI", hinhanh: 'image/Gucci-Diana-small-tote-bag-black-1.jpg', tensp: "Tui Gucci Diana Small Tote Bag Black", soluong: 1, dongia: "8.709.000VNĐ", mota: 'Gucci Diana Small Tote Bag Black là một tác phẩm thời trang độc đáo, mang đến sự kết hợp tinh tế giữa vẻ đẹp cổ điển và sự hiện đại. Với màu đen bí ẩn, chiếc túi tote này không chỉ là một phụ kiện thời trang mà còn là biểu tượng của sự thanh lịch và cá tính.' }
+let sp2 = { masp: 2, hang: "GUCCI", hinhanh: 'image/Gucci-Diana-Small-Tote-Bag-blue-1.jpg', tensp: "Tui Gucci Diana Small Tote Bag Blue", soluong: 1, dongia: "369.000VNĐ", mota: 'Kem chống nắng Innisfree Tone Up No Sebum Sunscreen SPF50 50ml là kem chống nắng nâng tông vật lý của Innisfree. Kem chống nắng với finish ráo mịn đẹp mê hồn cho những cô nàng da dầu, nhạy cảm. Kem chống nắng thích hợp để che đi khuyết điểm nhỏ trên gương mặt và giúp làn da tươi tắn, tràn đầy sức sống hơn.' }
+let sp3 = { masp: 3, hang: "GUCCI", hinhanh: 'image/Gucci-Diana-small-tote-bag-brown-1.jpg', tensp: "Tui Gucci Diana Small Tote Bag Brown", soluong: 1, dongia: "1.229.000VNĐ", mota: 'Tinh chất chứa chiết xuất từ vỏ quýt Hallabong chăm sóc các nhược điểm trên da và giúp da thêm căng mịn và sáng ngời! Dẫn xuất vitamin B3 cung cấp chăm sóc sắc tố melanin chuyên sâu. Dẫn xuất vitamin C và dẫn xuất vitamin B5 chăm sóc cho làn da khỏe mạnh. Axit hyaluronic cung cấp độ ẩm.' }
 let sp4 = { masp: 4, hang: "SOME BY MI", hinhanh: 'image/serum-somebymi.jpg', tensp: "Some By Mi Tinh chất AHA-BHA-PHA 30 Days Miracle Serum 50ml (IP04)", soluong: 1, dongia: "359.000VNĐ", mota: 'Tinh chất Some By Mi AHA-BHA-PHA 30 Days Miracle Serum với thành phần chứa bộ 3 AHA-BHA-PHA có tác dụng cao trong việc trị mụn, loại bỏ các tế bào chết giúp đánh bay các loại mụn cám, mụn đầu đen, mụn bọc sẽ nằm trong lòng bàn tay chỉ sau 30 ngày sử dụng kiên trì.' }
 let sp5 = { masp: 5, hang: "SOME BY MI", hinhanh: 'image/nhh-somebymi.jpg', tensp: "Nước hoa hồng Some By Mi AHA-BHA-PHA 30 Days Miracle Toner", soluong: 1, dongia: "289.000VNĐ", mota: 'Nước hoa hồng Miracle Toner 30 Days AHA – BHA – PHA là sự kết hợp giữa tinh chất tràm trà cùng với bộ 3 thành phần gồm: AHA, BHA và PHA giúp hỗ trợ làm sạch da, tẩy da chết và hỗ trợ cải thiện tình trạng da mụn.' }
 let sp6 = { masp: 6, hang: "SSOME BY MI", hinhanh: 'image/kcn-somebymi.jpg', tensp: "Kem Chống Nắng Some By Mi SPF50+/PA++++ 50ml Truecica Mineral 100 Calming Suncream", soluong: 1, dongia: "269.000VNĐ", mota: 'Kem Chống Nắng SOME BY MI Truecica Mineral Calming Suncream SPF50+/PA++++ 50ml đến từ thương hiệu SOME BY MI được thiết kế dành riêng cho làn da nhạy cảm và dễ bị mụn, mang đến công dụng 3 trong 1: chống nắng, dưỡng sáng da, giảm nếp nhăn.' }
@@ -12,13 +12,13 @@ let sp8 = { masp: 8, hang: "GARNIER", hinhanh: 'image/nuoctaytrang-garnier.png',
 let sp9 = { masp: 9, hang: "GARNIER", hinhanh: 'image/serum-garnier.jpg', tensp: "Serum Garnier Bright Complete Anti-Acnes Booster 30ml", soluong: 1, dongia: "299.000VNĐ", mota: 'Serum Garnier Bright Complete Anti-Acnes Booster 30ml là serum có công dụng 2 trong 1 vượt trội với công thức nổi bật chứa 4% Phức Hợp [Vit C + BHA + Niacinamide + AHA] không chỉ làm mềm lớp sừng trên da, làm dịu tình trạng mụn mà còn bổ sung dưỡng chất thiết yếu giúp nâng tone da tự nhiên từ sâu bên trong, làm đều màu da, đem lại vẻ rạng rỡ, căng tràn sức sống cho nàng thêm tự tin.' }
 let dssp = [sp1, sp2, sp3, sp4, sp5, sp6, sp7, sp8, sp9]
 
-let spm1 = { masp: 1, loai: "KEM DƯỠNG INNISFREE", hinhanh: "image/sp-moi-innisfree.png", ngaythang: "15/05/2023", tensp: "Kem dưỡng Innisfree Jeju Cherry Blossom Jelly Cream", mota: "Kem dưỡng Innisfree Jeju Cherry Blossom Jelly Cream có khả năng dưỡng ẩm mạnh mẽ, cải thiện độ đàn hồi cho da, kiểm soát bã nhờn, chống oxy hóa và hỗ trợ dưỡng sáng da.", dongia: "269.000vnđ" }
-let spm2 = { masp: 2, loai: "RETINOL SOMEBYMI", hinhanh: "image/sp-moi-somebymi.png", ngaythang: "15/05/2023", tensp: "Kem Dưỡng Mắt Giảm Quầng Thâm, Chống Lão Hóa Some By Mi Retinol Intense Advanced Triple Action Eye Cream 30ml", mota: "Kem Dưỡng Mắt Giảm Quầng Thâm, Chống Lão Hóa Some By Mi Retinol Intense Advanced Triple Action Eye Cream là kem dưỡng mắt với thành phần chính từ 0.1% Retinol kết hợp với Collagen và Peptide cùng ba tác động giúp cải thiện nếp nhăn, giảm quầng thâm và chống lão hóa, nuôi dưỡng vùng da quanh mắt tươi trẻ và tràn đầy sức sống thuộc thương hiệu Some By Mi đến từ Hàn Quốc.", dongia: "Giá: 289.000vnđ" }
+let spm1 = { masp: 1, loai: "Tui GUCCI ATTACHE SMALL SHOULDE ", hinhanh: "image/Gucci-Attache-Small-Shoulder-Bag-In-White-Leather-1.jpg", ngaythang: "15/05/2023", tensp: "Kem dưỡng Innisfree Jeju Cherry Blossom Jelly Cream", mota: "Nếu bạn đang tìm kiếm sự tinh tế và đẳng cấp trong một chiếc túi vai, Gucci Attache Small Shoulder Bag In White Leather chắc chắn sẽ không làm bạn thất vọng. Với thiết kế trắng tinh khôi, chiếc túi này được làm từ chất liệu da bê cao cấp, giữ nguyên vẻ sang trọng và bền bỉ như những sản phẩm chính hãng. Sự kết hợp giữa gam màu trắng và chất liệu da tạo nên vẻ đẹp độc đáo và phong cách..", dongia: "269.000.000vnđ" }
+let spm2 = { masp: 2, loai: "RETINOL SOMEBYMI", hinhanh: "image/sp-moi-somebymi.png", ngaythang: "20/03/2024", tensp: "Kem Dưỡng Mắt Giảm Quầng Thâm, Chống Lão Hóa Some By Mi Retinol Intense Advanced Triple Action Eye Cream 30ml", mota: "Kem Dưỡng Mắt Giảm Quầng Thâm, Chống Lão Hóa Some By Mi Retinol Intense Advanced Triple Action Eye Cream là kem dưỡng mắt với thành phần chính từ 0.1% Retinol kết hợp với Collagen và Peptide cùng ba tác động giúp cải thiện nếp nhăn, giảm quầng thâm và chống lão hóa, nuôi dưỡng vùng da quanh mắt tươi trẻ và tràn đầy sức sống thuộc thương hiệu Some By Mi đến từ Hàn Quốc.", dongia: "Giá: 289.000vnđ" }
 let spm3 = { masp: 3, loai: "NƯỚC TẨY TRANG GARNIER", hinhanh: "image/sp-moi-garnier.png", ngaythang: "12/05/2023", tensp: "Nước Tẩy Trang Garnier Dành Cho Da Dầu Và Mụn 400ml Micellar Cleansing Water For Oily & Acne-Prone Skin New", mota: "Nước Tẩy Trang Garnier Micellar Cleansing Water là dòng sản phẩm tẩy trang nổi tiếng đến từ thương hiệu Garnier của Pháp, sử dụng công nghệ Micelles (Micellar Technology) có chứa các phân tử mi-xen hoạt động theo cơ chế nam châm giúp nhẹ nhàng làm sạch da và lấy đi bụi bẩn, cặn trang điểm và dầu thừa sâu bên trong lỗ chân lông mà không gây khô da.", dongia: "Giá: 139.000vnđ" }
 let dsspMoi = [spm1, spm2, spm3]
 
 
-let tk1={id: 0, name: "Nguyễn Văn A", email: "a@gmail.com", birthday: "12-07-2003", username: "nguyenvana", password: "123456", address: "38 Thích Bửu Đăng", telephone: "0373246328"}
+let tk1={id: 0, name: "Nguyễn Văn A", email: "a@gmail.com", birthday: "16-11-2003", username: "nguyenvana", password: "123456", address: "123 nguyen xi ", telephone: "0852606710"}
 let dsstk=[tk1]
 // Array --> Json
 // Lưu dữ liệu vào localStorage
@@ -48,7 +48,7 @@ function hienthigiaodien() {
         " <a href='https://www.facebook.com'>" + "<i class='fa fa-facebook'>" + "</i>" + "</a> " +
         " </div> " +
         "<div class='lienhe'> " +
-        "Call: 0373246328 " +
+        "Call: 0852606710 " +
         " </div> " +
         " </div> " +
         "  <div class='col-sm-4'> " +
@@ -89,7 +89,7 @@ function hienthigiaodien() {
         "  <a class='nav-link' href='danhsach.html'>" + "Tất cả" + "</a>" +
         "</li>" +
         " <li class='nav-item'>" +
-        "  <a class='nav-link' href='Innisfree.html'>" + "Innisfree" + "</a>" +
+        "  <a class='nav-link' href='Gucci.html'>" + "Gucci" + "</a>" +
         "</li>" +
         "<li class='nav-item'>" +
         "<a class='nav-link' href='SomeByMi.html'>" + "Some By Mi" + "</a>" +
@@ -407,8 +407,8 @@ function HienThiDanhSachTungLoaiSanPham(sp) {
                 "	</div>" +
                 "	</div>"
 
-            $("#danhsachinnisfree").append(temp)
-            if (i == 2) $("#xemtheminnisfree").append(temp1)
+            $("#danhsachgucci").append(temp)
+            if (i == 2) $("#xemthemgucci").append(temp1)
         }
         if (i >= 3 && i < 6) {
             let temp = "<div class='col-sm-4'>" +
