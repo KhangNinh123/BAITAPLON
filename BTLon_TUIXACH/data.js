@@ -41,24 +41,28 @@ let makhachang = 0
 
 // Hàm hiển thị giao diện web
 
+
 function hienthigiaodien() {
     let header = " <div class='container'> " +
         " <div class='row'>" +
-        " <div class='col-sm-4'> " +
+        " <div class='col-sm-2'> " +
         " <div class='mangxh float-sm-left text-xs-center text-sm-left'> " +
+        
         " <a href='https://www.facebook.com'>" + "<i class='fa fa-facebook'>" + "</i>" + "</a> " +
         " </div> " +
         "<div class='lienhe'> " +
         "Call: 0852606710 " +
         " </div> " +
         " </div> " +
-        "  <div class='col-sm-4'> " +
+        "  <div class='col-sm-3'> " +
         " <div class='timkiem' id='timkiem'> " +
-        "<input type='search' placeholder='Search' style='width: 400px; height: 30px;' > " +
+        "<input type='search' placeholder='Search' style='width: 280px; height: 30px; background-color: white; color: black;' > " +
         " </div>" +
         "</div> " +
-
-        "<div class='col-sm-4'> " +
+        "<div class='col-sm-1'> " +
+        " <button class='btn btn-primary' style='background-color: white; color: black;' onclick='search()'>Tìm kiếm</button> " +
+        "</div>" +
+        "<div class='col-sm-6'> " +
         " <div class='lienhe openingtop float-sm-right text-sm-left text-xs-center'> " +
         " Thời gian mở cửa: 8:00 - 22:00" +
         "</div> " +
@@ -67,10 +71,6 @@ function hienthigiaodien() {
         "</div> " +
 
         "</div>"
-
-
-
-
     let menu = "<nav class='navbar navbar-light bg-faded fontroboto'>" +
         "<div class='container'>" +
         " <button class='navbar-toggler hidden-sm-up' type='button' data-toggle='collapse' data-target='#mtren'>" +
@@ -222,7 +222,12 @@ function hienthigiaodien() {
 }
 
 
-
+function search() {
+    let searchInput = document.querySelector('input[type="search"]').value.toLowerCase();
+    let searchResults = ds.filter(item => item.tensp.toLowerCase().includes(searchInput));
+    localStorage.setItem("searchResults", JSON.stringify(searchResults));
+    window.location.href = "timkiemsanpham.html";
+}
 
 
 // Hàm lưu mã Sp và localStorage
